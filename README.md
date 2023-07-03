@@ -1,5 +1,6 @@
 # Machine_learning2023_2
 How to Implement a fully connected feed forward neural network and a convolutional neural network to classify images from a dataset, in this case I refer to the "Cats of the Wild" dataset.
+
 Task 1: Image Classification with Fully Connected Feed Forward Neural 
 Networks (FFNN)
 In this task, I will try and build a classifier for the provided dataset, using a classic Feed 
@@ -75,11 +76,13 @@ arrays, and use them to train and evaluate the model. This time, we have a test 
 1.77 and a test accuracy of 0.318. This result indicates that the features extracted in this 
 case are providing more useful information for the classification task, compared to the 
 previous ones. Therefore, we can save this last model as the best one.
+
 Task 2: Image Classification with Convolutional Neural Networks (CNN)
 In the second task, I must implement a multi-class classifier (CNN model) to identify the
 class of the images.
+
 1. The first steps are the same as in task 1. Therefore, once we downloaded the data in the first 
-cell, we need to prepare data splitting indices into training and non-training set. The nontraining set is, in turn, divided into a test and validation set. Then we normalize data to 
+cell, we need to prepare data splitting indices into training and non training set. The nontraining set is, in turn, divided into a test and validation set. Then we normalize data to 
 obtain values in a range of [0, 1].
 2. Now, we define a CNN model using the ‘Sequential()’ function. This is a type of neural 
 network typically used for image-processing tasks. In this case, it is composed of three 
