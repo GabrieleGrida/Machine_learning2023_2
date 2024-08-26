@@ -1,4 +1,4 @@
-# Machine_learning2023_2
+# Wild Cat Image Classification with Neural Networks: FFNN vs. CNN
 How to Implement a fully connected feed forward neural network and a convolutional neural network to classify images from a dataset, in this case I refer to the "Cats of the Wild" dataset.
 
 Task 1: Image Classification with Fully Connected Feed Forward Neural 
